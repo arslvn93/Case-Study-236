@@ -32,7 +32,7 @@ const config = {
     "summary": {
       "title": "How We Helped Longtime Clients Sell Their Custom Toronto Home for $55,000 Above Asking in Just 5 Days When Most Homes Take 32 Days",
       "heroImage": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": "https://live-images.stratuscollab.com/APOzQLrj6VLr6e0a7dv70QcOQGHxqVoF9ps3lrZN_mI/rs:fit:900:600:0/g:no/cb:MjAyNS0wOS0yM1QxMDozNjozMS4wMDBa/aHR0cHM6Ly90cnJlYi1pbWFnZS5hbXByZS5jYS9XTDlWRG1IZFUzb2VMVTdXeGNnazUzejNEUjgxUnl3cm5nM1N2QmpFbVJVL3JzOmZpdC93OjE5MDAvaDoxOTAwL2c6Y2Uvd206LjU6c286MDo1MDouNC93bXNoOjEwL3dtdDpQSE53WVc0Z1ptOXlaV2R5YjNWdVpEMG5kMmhwZEdVbklHWnZiblE5SnpZNEp6NVNUMWxCVENCTVJWQkJSMFVnVTBsSFRrRlVWVkpGSUZKRlFVeFVXU3dnUW5KdmEyVnlZV2RsUEM5emNHRnVQZy9MM1J5Y21WaUwyeHBjM1JwYm1kekx6UXlMekV5THpVeUx6Y3lMM0F2WlRWbE5UazNNbVV0TURrNE55MDBNVE0xTFRoallXWXRObUpsTnpaaU5XTmtOakJsTG1wd1p3LmpwZw.jpg"
       },
       "subTitle": "Summary",
       "paragraphs": [
