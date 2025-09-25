@@ -11,7 +11,7 @@ const config = {
           },
           {
             "type": "phone",
-            "value": "14165872782"
+            "value": "1 416 587 2782"
           }
         ]
       }
@@ -26,7 +26,7 @@ const config = {
   "header": {
     "tag": "CASE STUDY",
     "title": "How We Helped Longtime Clients Sell Their Custom Toronto Home for $55,000 Above Asking in Just 5 Days When Most Homes Take 32 Days",
-    "subheadline": "Sold in a <strong>Competitive Market</strong> Over Asking."
+    "subheadline": "Sold in a <strong>Just 5 Days</strong> When Most Homes Take 32 Days."
   },
   "mainBox": {
     "summary": {
