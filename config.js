@@ -1,16 +1,5 @@
-// =================================================================================================
-// PAGE CONFIGURATION OBJECT
-// This file defines all the dynamic content for the case study page.
-// The `renderer.js` file reads this object to build the HTML.
-// To change text, images, or other content, edit the values in this file.
-// =_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_
 const config = {
   "globals": {
-    "companyName": "Erica Reddy-Choquette",
-    "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "#contact",
-    "primaryColor": "#e3c379",
-    "accentColor": "#d9c6a2",
     "agents": [
       {
         "name": "Erica Reddy-Choquette",
@@ -26,12 +15,18 @@ const config = {
           }
         ]
       }
-    ]
+    ],
+    "companyName": "Erica Reddy-Choquette",
+    "mainCTAButtonText": "Book A Discovery Call",
+    "mainCTAButtonURL": "#contact",
+    "primaryColor": "#e3c379",
+    "accentColor": "#d9c6a2",
+    "facebookPixelId": ""
   },
   "header": {
     "tag": "CASE STUDY",
     "title": "How We Helped Longtime Clients Sell Their Custom Toronto Home for $55,000 Above Asking in Just 5 Days When Most Homes Take 32 Days",
-    "subheadline": "Purchased in a <strong>High-Demand Area</strong> With Strong Terms—Now <a href=\"#\">Generating Top-Dollar Rent</a> in a Tight Market"
+    "subheadline": "Sold in a <strong>Competitive Market</strong> Over Asking."
   },
   "mainBox": {
     "summary": {
@@ -64,7 +59,8 @@ const config = {
         "Overcoming their biggest fear that the sale could drag on much longer than expected in an uncertain market",
         "Ensuring buyers would recognize and pay for the exceptional quality, design details, and premium finishes they had invested in",
         "Navigating a market where even beautiful homes in great neighbourhoods aren't guaranteed to 'sell themselves' anymore"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -78,7 +74,8 @@ const config = {
       ],
       "testimonial": {
         "quote": "\"\"Thank you Erica. I truly appreciate your partnership. This felt like a true partnership from start to finish. Selling wasn't just about the transaction – we had poured so much into designing and living in that space, so letting go wasn't easy. But getting such a strong result validated everything we put into it, and Erica understood that from day one.\"\"<br><span>— Satisfied Client</span>"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -88,7 +85,8 @@ const config = {
       ],
       "image": {
         "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -99,7 +97,8 @@ const config = {
         "Generated <strong>3 COMPETITIVE OFFERS</strong> with 2 coming in above asking price",
         "<strong>30 QUALIFIED SHOWINGS</strong> in less than a week, proving our marketing strategy hit the right target audience",
         "Negotiated better terms beyond just price, ensuring a smooth transaction for the sellers"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -108,7 +107,8 @@ const config = {
         "Even unique, beautiful homes need strategic pricing and presentation – buyers today are more informed and selective than ever, so proper positioning from day one is critical",
         "Preparation, presentation, and pricing have never mattered more in today's cautious market, where buyers are still willing to pay premiums but only for homes that stand out",
         "Don't wait for 'perfect market conditions' – they rarely come, and buyers are actively looking for well-prepared homes right now"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "ctaBanner",
@@ -120,24 +120,24 @@ const config = {
     }
   ],
   "footer": {
+    "privacyPolicy": {
+      "text": "Privacy Policy",
+      "href": "https://ericareddy.com"
+    },
     "logo": {
       "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/2d3322d2-1afe-448b-83c7-57b6eb3e9931/DSC00313.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3M7BXPR%2F20250923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250923T135135Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEL3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC1scxmyX6j0Ny9BRgwzsGW02evKESSMS7D3MBOX0Qj3QIga3H3htT4EIIffhY1x2HPuv4ZR56ITLdbS76RQrIaTPoq%2FwMIRhAAGgw2Mzc0MjMxODM4MDUiDKUpBcKf7Cv%2FWS5kzyrcA2zA%2FRmfSUBHnpexaV%2FkIJ1CHAgXSUnXMp3TTEBGrBaE7vH%2FMWvAVilD0RF9TSSv7cbXnQfl514LOTyj1lebq9UQ3Wb91oAIMsDDHsoyShVQYT42s7wGfn9FCowgM35nXHHsOKfR6V8gz1Y6u3MY391lUNrsrjczRwl7bkA5e5lBj8ymMDA10KdxYO4%2BM5U40jrb5qemZb5PCfI%2B2z%2F7lH32OxIDJkMTVeW3ys2Y7rVET2D4wRI2cLwPqHiOq3B9uIhEDINkJOmxuunQa0VDvNz%2BJKb%2B8vnHlQgeYbfloL5jopMgqNvPMGiGWmeXrldwtSi%2FijcHUBqz5w7bdFypGDg3HLPWnLLFnaws9obi%2BzJbuvO8kBI3ZgoWEFxMbBnxgAPNPGETS4BlZrQLWCccD4hL%2FiIKyiUWc070X8%2Fj06FXJRzs%2F13e8%2FelO%2Bheq58YwTt9Nh%2FXA%2BihVqSKItW2XUZ74noKdIZ6odQiBiK%2F8AAY%2BIfG%2BYXIgyBLTlg5aUI02C1PqdFa60%2FjBd1WSVu85fovNd1x1Lqy4j2O7xTnjLnawxyoMvSY08bw1iYToYX8alPG6UDC%2FTFxyz9OgF7TOtuFRMt%2FRMQICKLehchw4HvjbgRIcLwetnfmwf6sMIKoysYGOqUBk38jW7rdLxDKXBLVPG2FC1JeUAyr5okFR3wZJUJA1uBuR0kXRbnbp9FRsGELAud%2BE97sC%2BBwBhe5BpFr7fD%2Fr7VVsoAx2iro%2BaZogEVJ%2Bg1u3DhKX%2BTqANDeE%2FTMXOssrSlzgxIbGjp7nTraCBGIR4DVRrr4uuKHJ7nEOzZIQ5YFq5fJeQlYQ5z1PZiJU%2F0x%2FAHq5%2FH3sZ%2FRAY2zS%2FIJMvbL0juj&X-Amz-Signature=6dffa97c27fe01a0256aec506370009cfe187c57938a16d6794360c92674e855&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    },
+    "secondaryLogo": {
+      "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/7e31da39-ace2-4d7f-bd29-9a2e5402db63/EricaReddyTEAM_Logo_Final_Mar23_2016.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3M7BXPR%2F20250923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250923T135135Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEL3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC1scxmyX6j0Ny9BRgwzsGW02evKESSMS7D3MBOX0Qj3QIga3H3htT4EIIffhY1x2HPuv4ZR56ITLdbS76RQrIaTPoq%2FwMIRhAAGgw2Mzc0MjMxODM4MDUiDKUpBcKf7Cv%2FWS5kzyrcA2zA%2FRmfSUBHnpexaV%2FkIJ1CHAgXSUnXMp3TTEBGrBaE7vH%2FMWvAVilD0RF9TSSv7cbXnQfl514LOTyj1lebq9UQ3Wb91oAIMsDDHsoyShVQYT42s7wGfn9FCowgM35nXHHsOKfR6V8gz1Y6u3MY391lUNrsrjczRwl7bkA5e5lBj8ymMDA10KdxYO4%2BM5U40jrb5qemZb5PCfI%2B2z%2F7lH32OxIDJkMTVeW3ys2Y7rVET2D4wRI2cLwPqHiOq3B9uIhEDINkJOmxuunQa0VDvNz%2BJKb%2B8vnHlQgeYbfloL5jopMgqNvPMGiGWmeXrldwtSi%2FijcHUBqz5w7bdFypGDg3HLPWnLLFnaws9obi%2BzJbuvO8kBI3ZgoWEFxMbBnxgAPNPGETS4BlZrQLWCccD4hL%2FiIKyiUWc070X8%2Fj06FXJRzs%2F13e8%2FelO%2Bheq58YwTt9Nh%2FXA%2BihVqSKItW2XUZ74noKdIZ6odQiBiK%2F8AAY%2BIfG%2BYXIgyBLTlg5aUI02C1PqdFa60%2FjBd1WSVu85fovNd1x1Lqy4j2O7xTnjLnawxyoMvSY08bw1iYToYX8alPG6UDC%2FTFxyz9OgF7TOtuFRMt%2FRMQICKLehchw4HvjbgRIcLwetnfmwf6sMIKoysYGOqUBk38jW7rdLxDKXBLVPG2FC1JeUAyr5okFR3wZJUJA1uBuR0kXRbnbp9FRsGELAud%2BE97sC%2BBwBhe5BpFr7fD%2Fr7VVsoAx2iro%2BaZogEVJ%2Bg1u3DhKX%2BTqANDeE%2FTMXOssrSlzgxIbGjp7nTraCBGIR4DVRrr4uuKHJ7nEOzZIQ5YFq5fJeQlYQ5z1PZiJU%2F0x%2FAHq5%2FH3sZ%2FRAY2zS%2FIJMvbL0juj&X-Amz-Signature=02a63aa0fa825d0b34ffd3eb9902bb51252f9b9861474afe1360c5800c21a873&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
     },
     "brokerageLabel": "Brokerage:",
     "brokerageName": "Royal LePage Signature",
     "brokerageAddress": "8 Sampson Mews Unit 201 TO ON M3C0H5",
-    "secondaryLogo": {
-      "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/7e31da39-ace2-4d7f-bd29-9a2e5402db63/EricaReddyTEAM_Logo_Final_Mar23_2016.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Z3M7BXPR%2F20250923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250923T135135Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEL3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC1scxmyX6j0Ny9BRgwzsGW02evKESSMS7D3MBOX0Qj3QIga3H3htT4EIIffhY1x2HPuv4ZR56ITLdbS76RQrIaTPoq%2FwMIRhAAGgw2Mzc0MjMxODM4MDUiDKUpBcKf7Cv%2FWS5kzyrcA2zA%2FRmfSUBHnpexaV%2FkIJ1CHAgXSUnXMp3TTEBGrBaE7vH%2FMWvAVilD0RF9TSSv7cbXnQfl514LOTyj1lebq9UQ3Wb91oAIMsDDHsoyShVQYT42s7wGfn9FCowgM35nXHHsOKfR6V8gz1Y6u3MY391lUNrsrjczRwl7bkA5e5lBj8ymMDA10KdxYO4%2BM5U40jrb5qemZb5PCfI%2B2z%2F7lH32OxIDJkMTVeW3ys2Y7rVET2D4wRI2cLwPqHiOq3B9uIhEDINkJOmxuunQa0VDvNz%2BJKb%2B8vnHlQgeYbfloL5jopMgqNvPMGiGWmeXrldwtSi%2FijcHUBqz5w7bdFypGDg3HLPWnLLFnaws9obi%2BzJbuvO8kBI3ZgoWEFxMbBnxgAPNPGETS4BlZrQLWCccD4hL%2FiIKyiUWc070X8%2Fj06FXJRzs%2F13e8%2FelO%2Bheq58YwTt9Nh%2FXA%2BihVqSKItW2XUZ74noKdIZ6odQiBiK%2F8AAY%2BIfG%2BYXIgyBLTlg5aUI02C1PqdFa60%2FjBd1WSVu85fovNd1x1Lqy4j2O7xTnjLnawxyoMvSY08bw1iYToYX8alPG6UDC%2FTFxyz9OgF7TOtuFRMt%2FRMQICKLehchw4HvjbgRIcLwetnfmwf6sMIKoysYGOqUBk38jW7rdLxDKXBLVPG2FC1JeUAyr5okFR3wZJUJA1uBuR0kXRbnbp9FRsGELAud%2BE97sC%2BBwBhe5BpFr7fD%2Fr7VVsoAx2iro%2BaZogEVJ%2Bg1u3DhKX%2BTqANDeE%2FTMXOssrSlzgxIbGjp7nTraCBGIR4DVRrr4uuKHJ7nEOzZIQ5YFq5fJeQlYQ5z1PZiJU%2F0x%2FAHq5%2FH3sZ%2FRAY2zS%2FIJMvbL0juj&X-Amz-Signature=02a63aa0fa825d0b34ffd3eb9902bb51252f9b9861474afe1360c5800c21a873&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-    },
-    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary.",
-    "privacyPolicy": {
-      "text": "Privacy Policy",
-      "href": "https://ericareddy.com"
-    }
-  }
+    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
+  },
+  "githubRepo": "https://github.com/arslvn93/Case-Study-236"
 };
 
-// Export for Node.js environment (if applicable) or set for browser
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = config;
 } else if (typeof window !== 'undefined') {
