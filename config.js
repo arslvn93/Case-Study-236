@@ -73,7 +73,7 @@ const config = {
         "Leveraged my 12-year relationship with the sellers to understand exactly what made their home special and communicate that to potential buyers"
       ],
       "testimonial": {
-        "quote": "\"\"Thank you Erica. I truly appreciate your partnership. This felt like a true partnership from start to finish. Selling wasn't just about the transaction – we had poured so much into designing and living in that space, so letting go wasn't easy. But getting such a strong result validated everything we put into it, and Erica understood that from day one.\"\"<br><span>— Satisfied Client</span>"
+        "quote": "\"Thank you Erica. I truly appreciate your partnership. This felt like a true partnership from start to finish. Selling wasn't just about the transaction – we had poured so much into designing and living in that space, so letting go wasn't easy. But getting such a strong result validated everything we put into it, and Erica understood that from day one.\"<br><span>— Satisfied Client</span>"
       },
       "listItems": []
     },
