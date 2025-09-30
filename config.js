@@ -3,7 +3,7 @@ const config = {
     "agents": [
       {
         "name": "Erica Reddy-Choquette",
-        "imageSrc": "https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/487495607_1229731029158491_2139764600904630607_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=yduVylLSUXMQ7kNvwFd0_ek&_nc_oc=Adl26jghHoqYvyBfoyx7DId-HjSFZ2iTh-Y_AftsWGc9W-dM9gGUONED2dbVn_gUWdw&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=qUCpo9iWQbJhX0LcYU61VQ&oh=00_Afa2xr_5KyV1xqHNt-kulVjCDU4NQOK7qBggC1EttN-C_w&oe=68DB522E",
+        "imageSrc": "https://iili.io/K5boeMF.webp",
         "contactDetails": [
           {
             "type": "email",
@@ -18,7 +18,7 @@ const config = {
     ],
     "companyName": "Erica Reddy-Choquette",
     "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "#contact",
+    "mainCTAButtonURL": "https://calendly.com/ericareddy/discovery-call",
     "primaryColor": "#e3c379",
     "accentColor": "#d9c6a2",
     "facebookPixelId": ""
