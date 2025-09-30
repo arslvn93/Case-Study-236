@@ -84,7 +84,7 @@ const config = {
         "After 12 years of successful partnerships, they knew exactly who to call. They chose to work with me again because they trusted my deep understanding of their property and my proven track record of delivering results, even in challenging market conditions."
       ],
       "image": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": "https://iili.io/KG4iyvf.webp"
       },
       "listItems": []
     },
